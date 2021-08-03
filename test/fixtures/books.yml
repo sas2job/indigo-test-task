@@ -1,9 +1,10 @@
 # Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  author: MyString
+  author: Test Author 1
+  name: Test book 1
+  
 
 two:
-  name: MyString
-  author: MyString
+  author: Test Author 2
+  name: Test book 2

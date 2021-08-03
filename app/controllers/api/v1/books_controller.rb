@@ -1,7 +1,7 @@
 class Api::V1::BooksController < ApplicationController
   def index
     @books = Book.all
-    render json: BooksBlueprint.render(@books, view: :normal)
+    render json: BooksBlueprint.render(@books, view: :normal), status: 200
   end
 
   def show
