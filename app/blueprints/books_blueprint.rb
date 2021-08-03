@@ -1,4 +1,4 @@
-class BookBlueprint < Blueprinter::Base
+class BooksBlueprint < Blueprinter::Base
   identifier :id
     
   view :normal do
